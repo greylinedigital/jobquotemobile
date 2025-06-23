@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "JobQuote",
+    "slug": "jobquote",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "jobquote",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jobquote.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jobquote.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "server",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "supabaseUrl": "https://pofgpoktfwwrpkgzwuwa.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBvZmdwb2t0Znd3cnBrZ3p3dXdhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk3NDI0OTgsImV4cCI6MjA2NTMxODQ5OH0.Exfvy_9M-h5W-4QEKZvS3m4ikrbPG3ms-NtAQQbSDs4"
+    }
+  }
+}
