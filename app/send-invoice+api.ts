@@ -392,6 +392,8 @@ export async function POST(request: Request) {
     );
 
   } catch (error) {
+    console.error('Error in send-invoice API:', error);
+    
     let errorMessage = 'Failed to send invoice email';
     let errorDetails = 'Unknown error occurred';
     

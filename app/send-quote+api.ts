@@ -345,6 +345,8 @@ export async function POST(request: Request) {
     );
 
   } catch (error) {
+    console.error('Error in send-quote API:', error);
+    
     let errorMessage = 'Failed to send email';
     let errorDetails = 'Unknown error occurred';
     
